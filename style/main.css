@@ -25,10 +25,11 @@ img {
     max-width: 1200px;
 }
 
+
 .btn {
     background-color: transparent;
     padding: 7px 15px;
-    font-size: 20px;
+    font-size: 18px;
     text-wrap: nowrap;
     cursor: pointer;
 }
@@ -49,7 +50,8 @@ img {
     border: none;
     background-color: rgb(240, 239, 239);
     color: rgb(92, 92, 251);
-    font-size: 24px;
+    font-size: 20px;
+    padding: 7px 10px;
 }
 
 .btn-delete {
@@ -57,7 +59,8 @@ img {
     border: none;
     background-color: rgb(240, 239, 239);
     color: rgb(255, 1, 1);
-    font-size: 24px;
+    font-size: 20px;
+    padding: 7px 10px;
 }
 
 header {
@@ -86,13 +89,13 @@ header .header-content {
 }
 
 .time-section .time {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     color: rgb(47, 47, 255);
 }
 
 .time-section .date {
-    font-size: 16px;
+    font-size: 14px;
     color: gray;
     font-weight: 600;
 }
@@ -174,13 +177,20 @@ ul li .task-text .checkbox.active + div h2 {
 
 ul li .task-text h2 {
     color: rgb(88, 88, 88);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 ul li .task-text p {
     font-size: 14px;
     color: gray;
+}
+
+ul li .task-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 
